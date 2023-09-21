@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scroll page</title>
+</head>
+<body>
+    <header>
+        <h1 class="title">Entretenimento</h1>
+        <ul>
+            <li><a href="#videos-locais">Vídeos Locais</a></li>
+            <li><a href="#videos-incorporados">Vídeos Incorporados</a></li>
+            <li><a href="#fotos">Fotos</a></li>
+            <li><a href="#audios">Áudios</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="meu-elemento" id="videos-locais">
+            <h1>Vídeos Locais</h1>
+            <video src="./resource/hamster.mp4" controls></video>
+        </section>
+        <section class="meu-elemento" id="videos-incorporados">
+            <h1>Vídeos Incorporados</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V1bFr2SWP1I?si=L87Mv_se25zp_eQt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/MKUrAHOcKUI?si=6TKqVympR3CTPEmo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <section class="meu-elemento" id="fotos">
+            <h1>Fotos</h1>
+            <img src="./resource/foto.webp" alt="Foto">
+        </section>
+        <section class="meu-elemento" id="audios">
+            <h1>Áudios</h1>
+            <audio controls src="./resource/discovery.mp3"></audio>
+            <audio controls src="./resource/space.mp3"></audio>
+        </section>
+    </main>
+</body>
+</html>
